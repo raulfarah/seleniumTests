@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5" verbose="1">      
+  	<test name="Test1">  
+    	<parameter name="browserOption" value="htmlunit"></parameter>    	
+    	<classes>
+        	<class name="TestCase_Automation.TestCase"/>          
+    	</classes>
+  	</test>              
+</suite> <!-- Suite -->
